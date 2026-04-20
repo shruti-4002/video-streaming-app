@@ -1,0 +1,32 @@
+{
+  "name": "video-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon --ignore hls/ --ignore temp/ index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1026.0",
+    "@aws-sdk/s3-request-presigner": "^3.1026.0",
+    "@videojs/react": "^10.0.0-beta.6",
+    "bullmq": "^5.73.4",
+    "cloudinary": "^2.9.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "ioredis": "^5.10.1",
+    "mongoose": "^9.4.1",
+    "multer": "^2.1.1",
+    "socket.io": "^4.8.3",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
